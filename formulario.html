@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>REGISTER COUNT</title>
+        
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/estilo.css">
+    
+        <link rel="stylesheet" href="css/reg.css">
+    </head>
+<body>
+       <header>
+       <div class="contenedor">
+            <h1>Juego de Tronos</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="indice.html">Inicio</a>
+                 <a href="bio.html">Biografia del Autor</a>
+                <a href="hist.html">Historia</a>
+                <a href="libro.html">Libros</a>
+                <a href="pers.html">Personajes</a>
+                <a href="temp.html">Temporadas</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="formulario.html">Registro</a>
+            </nav>
+        </div>
+       </header><br><br><br><br><br><br>
+    
+<form action="registrar.php" method="post" class="form-register">
+    <h1 class="form__titulo">Crea una cuenta</h1>
+    <div class="contenedor-inputs">
+        <input type="text" name="nombre" placeholder="Nombre" class="input-48">
+        <input type="text" name="apellidos" placeholder="Apellidos" class="input-48">
+        <input type="email" name="correo" placeholder="Correo" class="input-100">
+        <input type="text" name="usuario" placeholder="Usuario" class="input-48">
+        <input type="password" name="clave" placeholder="Contraseña" class="input-48">
+        <input type="number" name="telefono" placeholder="Telefono" class="input-100">
+        <input type="submit" value="Registrar">
+        <p class="form__link">Ya tienes una cuenta?<a href="">Ingresa aqui</a></p>
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+#info {
+    background: rgba(0,25,25,0.5);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+info-got{
+    margin: 20px;
+}
+.info-got img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+body{
+    background-image: url(../img/mapa.jpg);
+}
+
+ul.galeria p{
+    color: darkblue;
+    margin: 12px;
+    text-align: center;
+    background-color: dimgray;
+    font-style: oblique;
+    width: 50%
+}

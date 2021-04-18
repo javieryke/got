@@ -1,0 +1,94 @@
+#blog h2, h3, h4 {
+    text-align: center;
+}
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog article {
+    margin: 15px;
+}
+#blog img {
+    width: 100%;
+    height: 100%;
+    max-width: 280px;
+}
+/*
+ <div>
+        <h1 class="section__titulo">Casa Stark</h1>
+        <div class="info-got">
+                    <img src="img/got/casa-stark.jpg" alt="">
+                </div>
+        <div class="cursos__columna">
+                  <img src="img/Ned_stark.gif" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo">Ned Stark.</h3>
+                      <p class="cursos__txt">Empezamos con Nedd Stark era la justicia personificada y nuestro personaje favorito.</p>
+                  </div>
+              </div>
+              <div class="cursos__columna">
+                  <img src="img/catlyn.gif" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo">Cathelyn Tully (Stark). </h3>
+                      <p class="cursos__txt">Lo cierto es que el amor de Cathelyn por su familia le llevó a hacer algo más fácil el camino de los Stark en el inicio de la guerra.</p>
+                  </div>
+              </div>
+              <div class="cursos__columna">
+                  <img src="img/rob.gif" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo">Robb Stark.</h3>
+                      <p class="cursos__txt">Noble, humilde y con los objetivos claros. Nos encantaba su forma de actuar y tomar decisiones, además de su valentía para seguir los impulsos de su corazón.</p>
+                  </div>
+              </div>
+              <div class="cursos__columna">
+                  <img src="img/jon.gif" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo">Jon Snow</h3>
+                      <p class="cursos__txt">El bastardo Stark. Su valentía, deseo de unificación por un objetivo común, bondad y empatía. Justamente por esos valores que todos deberiamos tener.</p>
+                  </div>
+              </div>
+                 <div class="cursos__columna">
+                  <img src="img/sansa.gif" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo">Sansa Stark.</h3>
+                      <p class="cursos__txt">Inocente y familiar, Sansa Stark es un personaje que consigue que la queramos y odiemos a la misma vez.</p>
+                  </div>
+              </div>
+                 <div class="cursos__columna">
+                  <img src="img/aria.gif" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo">Arya Stark.</h3>
+                      <p class="cursos__txt">La pequeña Stark sabe arreglárselas sola y sus ansias de venganza nos están dando más de una satisfacción.
+
+</p>
+                  </div>
+              </div>
+                 <div class="cursos__columna">
+                  <img src="img/Bran.gif" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo"> Bran Stark.</h3>
+                      <p class="cursos__txt">Es el segundo Stark. Debido a una caída, queda paralítico y depende de Hodor, un mozo de cuadra retrasado, para desplazarse. Está siempre acompañado de su lobo huargo Verano, con quien mantiene una poderosa conexión</p>
+                  </div>
+              </div>
+                 <div class="cursos__columna">
+                  <img src="img/rikon.gif" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo">Ricon Stark</h3>
+                      <p class="cursos__txt">El hijo menor de la familia Stark. Se encuentra desconcertado por la ausencia de su familia, sobre todo de sus hermanos mayores y sus padres</p>
+                  </div>
+              </div>
+              <div class="cursos__columna">
+                  <img src="img/t1/9.jpg" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo">Jon Snow</h3>
+                      <p class="cursos__txt">El hijo menor de la familia Stark. Se encuentra desconcertado por la ausencia de su familia, sobre todo de sus hermanos mayores y sus padres</p>
+                  </div>
+              </div><div class="cursos__columna">
+                  <img src="img/t1/10.jpg" alt="" class="cursos__img">
+                  <div class="cursos__descripcion">
+                      <h3 class="cursos__titulo">Jon Snow</h3>
+                      <p class="cursos__txt">El hijo menor de la familia Stark. Se encuentra desconcertado por la ausencia de su familia, sobre todo de sus hermanos mayores y sus padres</p>
+                  </div>
+              </div>
+    </div>*/
